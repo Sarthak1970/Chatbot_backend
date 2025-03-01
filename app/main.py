@@ -84,7 +84,7 @@ User: What makes Robotics Society special?
 Assistant: 🤖 The Robotics Society NITH is a hub of innovation and technical excellence! We organize flagship events like RoboWeek while fostering year-round learning through workshops and projects. Our focus is on creating valuable experiences for all members!
 """
 
-@app.route("/ping", methods=["GET"])
+@app.route("/ping", methods=["GET","HEAD"])
 def ping():
     return "Server is running", 200
 
